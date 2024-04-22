@@ -71,23 +71,5 @@ A Github repository for SIM900a functionalities that include receiving and sendi
   </tr>
 </table>
 
-
-
-| ARDUINO | SIM900a |                    
-| ------------- | ------------- |     
-| GND  | GND |                           
-| Di2  | TXD |                           
-| Di3  | RXD |
-
-| Speaker | SIM900a |
-| ------------- | ------------- |
-| GND  | SPN |
-| POS  | SPP |
-
-| Microphone | SIM900a |
-| ------------- | ------------- |
-| GND  | MCN |
-| POS  | MCP |
-
 ### References 
 The Following github repo was built with the help of this [Video](https://www.youtube.com/watch?v=UlOQ-EUOA3M)
