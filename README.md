@@ -14,25 +14,65 @@ A Github repository for SIM900a functionalities that include receiving and sendi
 <table>
   <tr>
     <td style="padding: 10px;">
-      <h3>Table 1</h3>
+      <h3>ARDUINO - SIM900a</h3>
       <table>
-        <!-- Table 1 content -->
+        <tr>
+          <th>ARDUINO</th>
+          <th>SIM900a</th>
+        </tr>
+        <tr>
+          <td>GND</td>
+          <td>GND</td>
+        </tr>
+        <tr>
+          <td>Di2</td>
+          <td>TXD</td>
+        </tr>
+        <tr>
+          <td>Di3</td>
+          <td>RXD</td>
+        </tr>
       </table>
     </td>
     <td style="padding: 10px;">
-      <h3>Table 2</h3>
+      <h3>Speaker - SIM900a</h3>
       <table>
-        <!-- Table 2 content -->
+        <tr>
+          <th>Speaker</th>
+          <th>SIM900a</th>
+        </tr>
+        <tr>
+          <td>GND</td>
+          <td>SPN</td>
+        </tr>
+        <tr>
+          <td>POS</td>
+          <td>SPP</td>
+        </tr>
       </table>
     </td>
     <td style="padding: 10px;">
-      <h3>Table 3</h3>
+      <h3>Microphone - SIM900a</h3>
       <table>
-        <!-- Table 3 content -->
+        <tr>
+          <th>Microphone</th>
+          <th>SIM900a</th>
+        </tr>
+        <tr>
+          <td>GND</td>
+          <td>MCN</td>
+        </tr>
+        <tr>
+          <td>POS</td>
+          <td>MCP</td>
+        </tr>
       </table>
     </td>
   </tr>
 </table>
+
+
+
 | ARDUINO | SIM900a |                    
 | ------------- | ------------- |     
 | GND  | GND |                           
