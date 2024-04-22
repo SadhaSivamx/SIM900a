@@ -29,7 +29,7 @@ void loop()
   SIM900A.println("AT+CMGF=1");    //Sets the GSM Module in Text Mode
   delay(1000);
   Serial.println ("Set SMS Number");
-  SIM900A.println("AT+CMGS=\"+918144488370\"\r"); //Mobile phone number to send message
+  SIM900A.println("AT+CMGS=\"+91xxxxxxxxx\"\r"); //Mobile phone number to send message
   delay(1000);
   Serial.println ("Set SMS Content");
   SIM900A.println("Good morning, how are you doing?");// Messsage content
