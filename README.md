@@ -10,5 +10,22 @@ A Github repository for SIM900a functionalities that include receiving and sendi
 | AT+CMGF=1 | This command sets the module in SMS text mode. After setting the module to this mode, you can send SMS text messages using the AT commands |
 | AT+CMGS="[recipient_number]" | This command initiates the process of sending an SMS. Replace [recipient_number] with the phone number of the recipient. |
 | Ctrl+z | This command is used to signify the end of the message when sending an SMS. In most cases, you actually send Ctrl+z or Ctrl+z followed by the Enter key (carriage return), depending on the terminal program or interface you're using. |
+### Circuit Connections
+| ARDUINO | SIM900a |
+| ------------- | ------------- |
+| GND  | GND |
+| Di2  | TXD |
+| Di3  | RXD |
+
+| Speaker | SIM900a |
+| ------------- | ------------- |
+| GND  | SPN |
+| POS  | SPP |
+
+| Microphone | SIM900a |
+| ------------- | ------------- |
+| GND  | MCN |
+| POS  | MCP |
+
 ### References 
 The Following github repo was built with the help of this [Video](https://www.youtube.com/watch?v=UlOQ-EUOA3M)
