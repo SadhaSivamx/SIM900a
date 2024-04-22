@@ -1,6 +1,6 @@
 ### SIM900a
 A Github repository for SIM900a functionalities that include receiving and sending SMS and calls
-### Commond Cmds
+### Common Cmds
 | Commands  | Purpose |
 | ------------- | ------------- |
 | AT  | This command is used to initialize the modem and check if it's responding. It's typically sent to verify that the modem is connected and ready to accept further commands.  |
